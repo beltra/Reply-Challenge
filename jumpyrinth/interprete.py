@@ -16,13 +16,6 @@ with open('input.txt', 'r') as input_file:
     lines = input_file.readlines()
     code = [line[:-1] for line in lines]
 
-# def getStartPoints():
-#     for i in range(len(code)):
-#         j = code[i].find("$")
-#         if(j != -1):
-#             start_points.append((i, j)
-
-
 def getStartPoints():
     for i in range(len(code)):
         for j in findall('$', code[i]):
