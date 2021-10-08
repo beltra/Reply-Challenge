@@ -11,8 +11,7 @@ class Stack:
         return self.__stack.pop()
     def empty(self) -> None:
         self.__stack = []
-        
-# asd
+
 with open('input.txt', 'r') as input_file:
     lines = input_file.readlines()
     code = [line[:-1] for line in lines]
