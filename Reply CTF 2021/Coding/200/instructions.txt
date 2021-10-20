@@ -1,0 +1,4 @@
+This is what our heroes are facing. First two numbers are the height and the width of the grid in which the puzzle pieces will be placed, then all the pieces are listed in a random order. 
+Every piece is composed by 4 numbers each representing an edge of the piece: upper edge, under edge, left edge and right edge. Two pieces can be connected only if the edges are equal (i.e. in order to place a piece on the left of another piece then the right edge and the left edge respectively have to be equal). 
+Some pieces also have a character engraved on them. Solving the puzzle will reveal the key to the weapon.
+h w 200
